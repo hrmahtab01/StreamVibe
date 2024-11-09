@@ -21,7 +21,7 @@ import Playbutton from "../assets/playbutton.png";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="mb-[200px]">
       <div className="flex flex-col gap-1 top-0 left-0 -z-0 absolute">
         <div className="flex gap-[20px] mx-auto">
           <div className="w-[195px] h-[273px] mx-auto ">
@@ -227,9 +227,11 @@ const Banner = () => {
           alt="Playbutton"
         />
       </div>
-      <div className="absolute bottom-0 left-[50%] translate-x-[-50%]">
-        <h1 className="text-center text-[58px] text-primaryColor font-semibold font-manrope">The Best Streaming Experience</h1>
-        <p className="text-center">
+      <div className="absolute bottom-[-70px] left-[50%] translate-x-[-50%] flex flex-col justify-center ">
+        <h1 className="text-center text-[58px] text-primaryColor font-semibold font-manrope">
+          The Best Streaming Experience
+        </h1>
+        <p className="text-center text-[18px] text-[#999]/60 font-normal font-manrope mt-[14px]">
           StreamVibe is the best streaming experience for watching your favorite
           movies and shows on demand, anytime, anywhere. With StreamVibe, you
           can enjoy a wide variety of content, including the latest
@@ -238,7 +240,7 @@ const Banner = () => {
           want to watch.
         </p>
         <button
-          className="flex justify-center
+          className=" py-[18px] px-[24px] bg-SecondaryColor rounded-[8px] text-lg text-primaryColor font-semibold font-manrope w-fit absolute left-[50%] bottom-[-100px] translate-x-[-50%]
         "
         >
           Start Watching Now
