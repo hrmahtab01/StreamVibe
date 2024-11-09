@@ -8,16 +8,16 @@ import { Link, useLocation } from "react-router-dom";
 const Navbar = () => {
   let location = useLocation();
   return (
-    <nav className="py-[22px]">
+    <nav className="py-[22px] ">
       <Container>
-        <div className="flex items-center justify-between">
+        <div className=" flex gap-[350px] fixed  z-50 ">
           <div className="flex items-center gap-1">
             <img className="w-[60px] h-[60px]" src={logo} alt="Logo" />
             <h2 className="text-2xl font-semibold text-primaryColor font-manrope">
               HRM Streaming
             </h2>
           </div>
-          <div className="py-[10px] px-[40px] border-[2px] border-[#1F1F1F] rounded-md">
+          <div className="py-[10px] px-[40px] border-[2px] bg-mainBlack border-[#1F1F1F] rounded-md">
             <ul className="flex gap-8 items-center">
               <Link to="/">
                 <li

@@ -15,6 +15,9 @@ export default {
         thirdColor: "#999999",
         mainBlack: "#0F0F0F",
       },
+      backgroundImage:{
+        'bannerimage': "url('./src/assets/banner .png')",
+      }
     },
   },
   plugins: [],
