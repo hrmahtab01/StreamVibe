@@ -22,9 +22,9 @@ import Playbutton from "../assets/playbutton.png";
 const Banner = () => {
   return (
     <div className="mb-[200px]">
-      <div className="flex flex-col gap-1 top-0 left-0 -z-0 absolute">
+      <div className="flex flex-col gap-1 lg:top-0 lg:left-0 lg:-z-0 lg:absolute">
         <div className="flex gap-[20px] mx-auto">
-          <div className="w-[195px] h-[273px] mx-auto ">
+          <div className="w-[195px] h-[273px] mx-auto  ">
             <img
               className="w-full h-full object-cover"
               src={BannerImage}
